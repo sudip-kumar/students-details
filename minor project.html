@@ -1,0 +1,173 @@
+<!--It is a students page-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <style>
+        body {
+
+            font-family: Arial, sans-serif;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Sidebar styling */
+        .sidebar {
+            width: 200px;
+            background-color: #333;
+            color: #fff;
+            padding-top: 20px;
+            height: 100vh;
+        }
+
+        .daitm {
+            width: 200px;
+            padding-top: 0px;
+            height: 8vh;
+            background-image: url("Screenshot 2024-10-31 140201.png");
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .sidebar a:hover {
+            background-color: #555;
+        }
+
+        /* Main content styling */
+        .main-content {
+            flex-grow: 1;
+            background-image: url("yy.jpg");
+            background-position: center;
+            background-size: cover;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header {
+            background-color: #00bfff;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .details-box {
+            item-position:center;
+            opacity: 0.5;
+            background-color: #e6f2ff;
+            border: 1px solid #aaa;
+            border-radius: 8px;
+            width: 700px;
+            margin: 0 auto;
+            padding: 0px;
+            text-align: left;
+        }
+
+        .details-box h3 {
+            background-color: #3a8cd9;
+            color: rgb(2, 5, 17);
+            padding: 10px;
+            margin-top: 0;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .details-box table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .details-box td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .details-box td:first-child {
+            font-weight: bold;
+            width: 40%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="daitm"></div><br /><br /><br /><br /><br />
+        <a href="#">Time Schedule</a><br />
+        <a href="#">Update Profile</a><br />
+        <a href="#">Update Password</a><br />
+        <a href="#">Time Table</a>
+    </div>
+
+    <!-- Main content -->
+    <div class="main-content">
+        <div class="header">
+            Welcome Student
+        </div>
+        <div class="details-box">
+            <h3>
+                <center>Student Basic Details</center>
+            </h3>
+            <table>
+                <tr>
+                    <td>Student Name</td>
+                    <td><a href="#">name</a></td>
+                </tr>
+                <tr>
+                    <td>Roll No</td>
+                    <td><a href="#">roll</a></td>
+                </tr>
+                <tr>
+                    <td>Reg. No</td>
+                    <td><a href="#">1468464646</a></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><a href="#">example@hmail.com</a></td>
+                </tr>
+                <tr>
+                    <td>Mobile</td>
+                    <td><a href="#">1000074000</a></td>
+                </tr>
+                <tr>
+                    <td>Father's Name</td>
+                    <td><a href="#">f name</a></td>
+                </tr>
+                <tr>
+                    <td>Mother's Name</td>
+                    <td><a href="#">m name</a></td>
+                </tr>
+                <tr>
+                    <td>DOB</td>
+                    <td><a href="#">08/01/2004</a></td>
+                </tr>
+                <tr>
+                    <td>Institute Name(code)</td>
+                    <td>DINABANDHU ANDREWS INSTITUTE OF TECHNOLOGY & MANAGEMENT(154)</td>
+                </tr>
+                <tr>
+                    <td>Course Name(Code)</td>
+                    <td>Bachelor of Computer Application(012)</td>
+                </tr>
+                <tr>
+                    <td>ABC ID</td>
+                    <td>--</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>
